@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1E0B4AA61F3DF465001FDB95 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B4AA51F3DF465001FDB95 /* main.cpp */; };
+		1E0B4AB81F47F111001FDB95 /* ppm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B4AB61F47F111001FDB95 /* ppm.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,8 @@
 		1E0B4AB31F3F61F1001FDB95 /* lambertian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lambertian.h; sourceTree = "<group>"; };
 		1E0B4AB41F3F62EB001FDB95 /* metal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metal.h; sourceTree = "<group>"; };
 		1E0B4AB51F3F6B5A001FDB95 /* dieletric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dieletric.h; sourceTree = "<group>"; };
+		1E0B4AB61F47F111001FDB95 /* ppm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ppm.cpp; sourceTree = "<group>"; };
+		1E0B4AB71F47F111001FDB95 /* ppm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ppm.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				1E0B4AB31F3F61F1001FDB95 /* lambertian.h */,
 				1E0B4AB41F3F62EB001FDB95 /* metal.h */,
 				1E0B4AB51F3F6B5A001FDB95 /* dieletric.h */,
+				1E0B4AB61F47F111001FDB95 /* ppm.cpp */,
+				1E0B4AB71F47F111001FDB95 /* ppm.hpp */,
 			);
 			path = RayTracer;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E0B4AA61F3DF465001FDB95 /* main.cpp in Sources */,
+				1E0B4AB81F47F111001FDB95 /* ppm.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
