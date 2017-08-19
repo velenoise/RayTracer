@@ -25,6 +25,16 @@
 /* Begin PBXFileReference section */
 		1E0B4AA21F3DF465001FDB95 /* RayTracer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RayTracer; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0B4AA51F3DF465001FDB95 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1E0B4AAC1F3DF540001FDB95 /* vec3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec3.h; sourceTree = "<group>"; };
+		1E0B4AAD1F3DFB0B001FDB95 /* ray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ray.h; sourceTree = "<group>"; };
+		1E0B4AAE1F3E06F0001FDB95 /* hitable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hitable.h; sourceTree = "<group>"; };
+		1E0B4AAF1F3E0763001FDB95 /* sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		1E0B4AB01F3E09B0001FDB95 /* hitableList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hitableList.h; sourceTree = "<group>"; };
+		1E0B4AB11F3E12C4001FDB95 /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		1E0B4AB21F3F6080001FDB95 /* material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = material.h; sourceTree = "<group>"; };
+		1E0B4AB31F3F61F1001FDB95 /* lambertian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lambertian.h; sourceTree = "<group>"; };
+		1E0B4AB41F3F62EB001FDB95 /* metal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metal.h; sourceTree = "<group>"; };
+		1E0B4AB51F3F6B5A001FDB95 /* dieletric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dieletric.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,16 @@
 			isa = PBXGroup;
 			children = (
 				1E0B4AA51F3DF465001FDB95 /* main.cpp */,
+				1E0B4AAC1F3DF540001FDB95 /* vec3.h */,
+				1E0B4AAD1F3DFB0B001FDB95 /* ray.h */,
+				1E0B4AAE1F3E06F0001FDB95 /* hitable.h */,
+				1E0B4AAF1F3E0763001FDB95 /* sphere.h */,
+				1E0B4AB01F3E09B0001FDB95 /* hitableList.h */,
+				1E0B4AB11F3E12C4001FDB95 /* camera.h */,
+				1E0B4AB21F3F6080001FDB95 /* material.h */,
+				1E0B4AB31F3F61F1001FDB95 /* lambertian.h */,
+				1E0B4AB41F3F62EB001FDB95 /* metal.h */,
+				1E0B4AB51F3F6B5A001FDB95 /* dieletric.h */,
 			);
 			path = RayTracer;
 			sourceTree = "<group>";
